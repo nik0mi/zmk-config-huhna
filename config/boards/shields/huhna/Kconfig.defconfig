@@ -12,5 +12,4 @@ if SHIELD_HUHNA_LEFT || SHIELD_HUHNA_RIGHT
 
 config ZMK_SPLIT
     default y
-
 endif
