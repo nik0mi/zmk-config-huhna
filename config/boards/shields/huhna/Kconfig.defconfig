@@ -1,4 +1,4 @@
-if SHIELD_HUHNA_LEFT
+if SHIELD_HUHNA_DONGLE
 
 config ZMK_KEYBOARD_NAME
     default "Huhna"
@@ -6,10 +6,23 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
+config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 2
+
+config BT_MAX_CONN
+    default 4
+
+config BT_MAX_PAIRED
+    default 4
+
 endif
 
 if SHIELD_HUHNA_LEFT || SHIELD_HUHNA_RIGHT
 
 config ZMK_SPLIT
     default y
+    
 endif
