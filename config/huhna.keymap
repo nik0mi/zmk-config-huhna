@@ -24,7 +24,7 @@
     combos {
         compatible = "zmk,combos";
 
-        goto_gay_layer {
+        goto_gayming {
             bindings = <&tog 1>;
             key-positions = <11 12>;   
         };
