@@ -52,7 +52,7 @@
 
         default {
             bindings = <
-&ht_esc GRAVE ESC  &kp Q  &kp W  &kp E           &kp R           &kp T    &kp Y  &kp U           &kp I           &kp O    &kp P     &kp BACKSPACE
+&esc_tap  &kp Q  &kp W  &kp E           &kp R           &kp T    &kp Y  &kp U           &kp I           &kp O    &kp P     &kp BACKSPACE
 &kp TAB               &kp A  &kp S  &tp LEFT_WIN D  &tp LEFT_ALT F  &kp G    &kp H  &tp LEFT_ALT J  &tp LEFT_WIN K  &kp L    &kp SEMI  &kp SQT
 &kp LSHFT             &kp Z  &kp X  &kp C           &kp V           &kp B    &kp N  &kp M           &kp COMMA       &kp DOT  &kp FSLH  &mt RIGHT_BRACKET LEFT_BRACKET
                                     &kp LCTRL       &kp SPACE       &mo 2    &mo 3  &kp ENTER       &kp DELETE
@@ -61,7 +61,7 @@
 
         gayming {
             bindings = <
-&ht_esc GRAVE ESC  &kp Q  &kp W  &kp E             &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O       &kp P          &kp BACKSPACE
+&esc_tap  &kp Q  &kp W  &kp E             &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O       &kp P          &kp BACKSPACE
 &kp TAB               &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J      &kp K      &kp L       &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT        &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M      &kp COMMA  &kp PERIOD  &kp SLASH      &mt RIGHT_BRACKET LEFT_BRACKET
                                     &kp LEFT_CONTROL  &kp SPACE  &mo 2    &mo 3  &kp ENTER  &tog 0
