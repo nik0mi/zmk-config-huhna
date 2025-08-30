@@ -28,7 +28,7 @@
             tapping-term-ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-            quick-tap-ms = <300>;
+            quick-tap-ms = <-1>;
             hold-trigger-on-release;
         };
     };
