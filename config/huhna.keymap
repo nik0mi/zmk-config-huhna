@@ -37,27 +37,27 @@
         default {
             bindings = <
 &mt GRAVE ESCAPE  &kp Q  &kp W  &kp E           &kp R           &kp T    &kp Y  &kp U           &kp I           &kp O    &kp P     &kp BACKSPACE
-&kp TAB                &kp A  &kp S  &tp LEFT_WIN D  &tp LEFT_ALT F  &kp G    &kp H  &tp LEFT_ALT J  &tp LEFT_WIN K  &kp L    &kp SEMI  &kp SQT
-&kp LSHFT              &kp Z  &kp X  &kp C           &kp V           &kp B    &kp N  &kp M           &kp COMMA       &kp DOT  &kp FSLH  &mt RIGHT_BRACKET LEFT_BRACKET
-                                     &kp LCTRL       &kp SPACE       &mo 2    &mo 3  &kp ENTER       &kp DELETE
+&kp TAB           &kp A  &kp S  &tp LEFT_WIN D  &tp LEFT_ALT F  &kp G    &kp H  &tp LEFT_ALT J  &tp LEFT_WIN K  &kp L    &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z  &kp X  &kp C           &kp V           &kp B    &kp N  &kp M           &kp COMMA       &kp DOT  &kp FSLH  &mt RIGHT_BRACKET LEFT_BRACKET
+                                &kp LCTRL       &kp SPACE       &mo 2    &mo 3  &kp ENTER       &kp DELETE
             >;
         };
 
         gayming {
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E             &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O       &kp P          &kp BACKSPACE
-&kp TAB                &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J      &kp K      &kp L       &kp SEMICOLON  &kp SQT
-&kp LEFT_SHIFT         &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M      &kp COMMA  &kp PERIOD  &kp SLASH      &mt RIGHT_BRACKET LEFT_BRACKET
-                                     &kp LEFT_CONTROL  &kp SPACE  &mo 2    &mo 3  &kp ENTER  &tog 0
+&kp ESCAPE      &kp Q  &kp W  &kp E             &kp R      &kp T    &kp Y  &kp U      &kp I      &kp O       &kp P          &kp BACKSPACE
+&kp TAB         &kp A  &kp S  &kp D             &kp F      &kp G    &kp H  &kp J      &kp K      &kp L       &kp SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C             &kp V      &kp B    &kp N  &kp M      &kp COMMA  &kp PERIOD  &kp SLASH      &mt RIGHT_BRACKET LEFT_BRACKET
+                              &kp LEFT_CONTROL  &kp SPACE  &mo 2    &mo 3  &kp ENTER  &tog 0
             >;
         };
 
         numbers {
             bindings = <
-&trans         &kp NUMBER_1     &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5         &kp NUMBER_6  &kp N7                &kp N8                 &kp N9           &kp N0          &kp BACKSPACE
-&kp PIPE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH      &kp DOLLAR     &kp PERCENT    &kp EQUAL     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE   &kp MINUS       &kp HOME
-&kp BACKSLASH  &kp F2           &kp F3        &kp ASTERISK  &kp AMPERSAND  &kp CARET      &kp PLUS      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &kp UNDERSCORE  &kp END
-                                              &trans        &trans         &trans         &trans        &trans                &trans
+&mt TILDE GRAVE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET  &kp AMPERSAND         &kp ASTERISK           &kp F2           &kp F3          &kp BACKSPACE
+&kp PIPE         &kp N1           &kp N2       &kp N3    &kp N4      &kp N5         &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE   &kp MINUS       &kp HOME
+&kp BACKSLASH    &kp N0           &kp N9       &kp N8    &kp N7      &kp N6         &kp PLUS   &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp RIGHT_BRACE  &kp UNDERSCORE  &kp END
+                                               &trans    &trans      &trans         &trans     &trans                &trans
             >;
         };
 
